@@ -1,6 +1,8 @@
 module.exports = {
   entry: {
-    "client": "./src/client.js",
+    "client": "./src/client.jsx",
+    "server": "./src/server.jsx",
+    "render": "./src/modules/render.jsx"
   },
   output: {
     filename: '[name].js',
