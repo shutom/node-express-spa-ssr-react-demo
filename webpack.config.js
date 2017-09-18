@@ -1,13 +1,12 @@
 module.exports = {
   entry: {
-    "App": "./src/components/App/index.jsx",
-    "express/server": "./src/.express/server.jsx"
+    "client": "./src/client.js",
   },
   output: {
-    path: __dirname + '/build',
-    filename: '[name].js'
+    filename: '[name].js',
+    path: __dirname + "/build/"
   },
-    module: {
+  module: {
     loaders: [
       // {
       //   test: the target files for the build
